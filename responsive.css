@@ -1,0 +1,114 @@
+@media all and (max-width: 1024px){
+    .single-portfolio-item {
+        width: 100% !important;
+        margin-bottom: 2%;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .header-area li a {
+      display: block;
+      color: #333;
+      padding: 14px;
+      text-transform: uppercase;
+      padding-right: 0;
+      padding-left: 18px;
+    }
+  
+    .header-area h3 {
+      display: inline;
+    }
+    .header-area h3 a {
+      margin-top: 7px;
+      display: block;
+  }
+  .owl-carousel .owl-item img {
+    height: 60%;
+  }
+  #homepage-slides h2 {
+    font-size: 35px;
+    font-weight: 100;
+  }
+  .single-homepage-slide {
+    padding: 75px 0;
+  }
+  
+  }
+  
+  @media all and (max-width: 768px) {
+    .row>* {
+      width: auto;
+    }
+  
+    .row {
+      justify-content: space-between;
+    }
+    .single-homepage-slide {
+      padding: 45px 0;
+  }
+  .slide-btn {
+    margin-bottom: 34px;
+  }
+  
+  .owl-carousel .owl-item img {
+    margin-bottom: 20px;
+  }
+  
+  }
+  
+  @media all and (max-width: 634px) {
+  
+  .header-area li {
+      display: block;
+      text-align: center;
+  }
+  .row>* {
+    width: 100%;
+  }
+  .header-area h3 a {
+    text-align: center;
+  }
+  .header-top-area {
+    text-align: center;
+  }
+  .fa-envelope{
+   display: block;
+   text-align: center;
+   margin: 20px 0px;
+  }
+  .fa-phone{
+  display: block;
+  text-align: center;
+  }
+  .header-area li a {
+    border: 2px solid #333;
+    margin: 21px;
+    border-radius: 17px;
+    font-weight: 700;
+  }
+  .header-area li a:hover {
+    background-color: chartreuse;
+    color: white;
+    
+  }
+  #homepage-slides h2 {
+    font-size: 33px;
+  }
+  .slide-btn {
+    margin: 21px auto;
+    display: block;
+    width: 50%;
+    border-radius: 25px;
+    text-align: center;
+  }
+  .owl-carousel .owl-item img {
+    height: 100%;
+  }
+  }
+  
+  @media all and (max-width: 576px) {
+  
+    .padding {
+      max-width: 654px;
+    }
+  }
